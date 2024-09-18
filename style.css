@@ -164,3 +164,15 @@ body {
     border-radius: 10px; /* Bordes redondeados del tallo */
     z-index: 0; /* Asegúrate de que esté detrás de la flor */
 }
+
+.leaf {
+  position: absolute;
+  bottom: -50px; /* Posiciona la hoja en la parte inferior del tallo */
+  left: 90px; /* Ajusta según la posición deseada */
+  width: 80px;
+  height: 40px;
+  background-color: green;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-30deg); /* Rota la hoja para darle una forma más natural */
+  z-index: 1;
+}
