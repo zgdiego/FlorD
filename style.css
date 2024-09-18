@@ -3,7 +3,7 @@ body {
   background-color: #000;
   margin: 0;
   padding: 0;
-  height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+  height: 60vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
   display: flex;
   align-items: center; /* Centra verticalmente los elementos en el cuerpo */
   justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
@@ -37,7 +37,15 @@ body {
 }
 
 .text-below {
-    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+    
+    position: absolute;
+    bottom: -290px; /* Ajusta la posición vertical para que quede más abajo del tallo */
+    left: 50%;
+    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    text-align: center;
+    color: #fff; /* Color del texto */
+    font-size: 25px; /* Tamaño del texto */
+    z-index: 1; /* Asegura que esté debajo del tallo */
 }
 @keyframes pulsate {
   0% {
@@ -146,3 +154,13 @@ body {
   .Petal3.p4 {
     transform: rotate(157.5deg);
   }
+
+  .stem {
+    position: absolute;
+    bottom: -150px; /* Ajusta según sea necesario para posicionar el tallo correctamente */
+    width: 20px; /* Ancho del tallo */
+    height: 200px; /* Altura del tallo */
+    background-color: green; /* Color del tallo */
+    border-radius: 10px; /* Bordes redondeados del tallo */
+    z-index: 0; /* Asegúrate de que esté detrás de la flor */
+}
