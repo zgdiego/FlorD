@@ -33,13 +33,13 @@ body {
 }
 
 .text-above {
-    top: -60px; /* Ajusta la posición vertical del texto arriba de la flor */
+    top: -53px; /* Ajusta la posición vertical del texto arriba de la flor */
 }
 
 .text-below {
     
     position: absolute;
-    bottom: -250px; /* Ajusta la posición vertical para que quede más abajo del tallo */
+    bottom: -230px; /* Ajusta la posición vertical para que quede más abajo del tallo */
     left: 50%;
     transform: translateX(-50%); /* Centra el texto horizontalmente */
     text-align: center;
@@ -157,7 +157,7 @@ body {
 
   .stem {
     position: absolute;
-    bottom: -130px; /* Ajusta según sea necesario para posicionar el tallo correctamente */
+    bottom: -115px; /* Ajusta según sea necesario para posicionar el tallo correctamente */
     width: 20px; /* Ancho del tallo */
     height: 200px; /* Altura del tallo */
     background-color: green; /* Color del tallo */
